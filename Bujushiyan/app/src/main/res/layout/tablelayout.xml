@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    android:stretchColumns="1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView android:padding= "5dip"
+            android:text="Open..."
+            android:layout_column="1"
+            android:id="@+id/textView3" />
+
+        <TextView android:padding= "5dip"
+            android:text="Ctrl-O"
+            android:gravity= "right"
+            android:id="@+id/textView" />
+    </TableRow>
+
+    <TableRow>
+        <TextView android:padding= "5dip"
+            android:text="Save..."
+            android:layout_column="1" />
+
+        <TextView android:padding= "5dip"
+            android:text="Ctrl-S"
+            android:gravity= "right" />
+    </TableRow>
+
+    <TableRow>
+        <TextView android:padding="5dip"
+            android:text= "Save As..."
+            android:layout_column="1"/>
+        <TextView android:padding="5dip"
+            android:text= "Ctrl-Shift-S"
+            android:gravity="right"/>
+    </TableRow>
+
+    //显示一块文本区(TextView)高度为2=1dip,背景色为黑色（#111111）
+    <TextView android:layout_height="1dip"
+        android:background="#111111"/>
+
+    <TableRow>
+        <TextView android:padding="5dip"
+            android:text="X"
+            android:layout_width="5dp"/>
+
+        <TextView android:padding="5dip"
+            android:text="Import..."
+            />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView android:padding="5dip"
+            android:text= "X"
+            android:id="@+id/textView2" />
+
+        <TextView android:padding="5dip"
+            android:text="Emport..."/>
+        <TextView android:padding="5dip"
+            android:text="Ctrl-E"
+            android:gravity="right"/>
+    </TableRow>
+
+    <TextView android:layout_height="1dip"
+        android:background="#111111"/>
+    <TableRow>
+        <TextView android:padding="5dip"
+            android:text="Quit"
+            android:layout_column="1"/>
+    </TableRow>
+
+</TableLayout>
